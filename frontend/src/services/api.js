@@ -2,7 +2,7 @@ import axios from "axios";
 import { pegarToken } from "./auth";
 
 const api = axios.create({
-    baseURL: "http://localhost:3000"
+    baseURL: "https://block-crm.onrender.com"
 });
 
 api.interceptors.request.use((config) => {
